@@ -13,7 +13,7 @@ public class Person {
         age = a;
     }
      String FullName() {
-        return firstName + " " + lastName;
+          return firstName + " " + lastName;
     }
 
     public static void main(String[] args) {
