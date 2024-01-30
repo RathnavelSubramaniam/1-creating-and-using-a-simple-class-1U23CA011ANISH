@@ -7,9 +7,9 @@ public class Person {
         lastName="";
         age=0;
      } 
-     Person(String firstName, String lastName, int a) {
-        firstName = firstName;
-        lastName = lastName;
+     Person(String fName, String lName, int a) {
+        firstName = fName;
+        lastName = lName;
         age = a;
     }
      String FullName() {
