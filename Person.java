@@ -17,11 +17,11 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person person1 = new Person("John", "Doe", 30);
+        Person person1 = new Person("Jhon", "Doe", 30);
         Person person2 = new Person("Alice", "Smith", 25);
         System.out.println("Person 1: " + person1.FullName() );
         System.out.println("Person 2: " + person2.FullName());
         double averageAge = (person1.age + person2.age) / 2.0;
-        System.out.println("Average Age: " + averageAge);
+        System.out.println("Average Age:" + averageAge);
     }
 }
